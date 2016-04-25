@@ -1,0 +1,7 @@
+@import "normalize";
+@import "generalStyles";
+@import "extendSelectors";
+
+.header__authoriz {
+	@extend %centerPosition;
+}

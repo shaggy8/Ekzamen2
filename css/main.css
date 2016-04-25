@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+header {
+  background-image: url(../img/header-bg.jpg);
+  background-position: top center; }
+
+.header__authoriz {
+  margin: 0 auto; }
