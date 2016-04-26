@@ -93,7 +93,65 @@ header {
   margin: 34px 0 0 0; }
 
 .how-works-block__header {
+  margin: 0 0 14px 0;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: bold; }
+
+.slider__wrapper {
+  position: relative;
+  margin: 10px auto;
+  width: 300px; }
+
+/*.slider__wrapper:first-child {
+	margin-top: 14px;
+}*/
+.slider__button--left, .slider__button--right {
+  position: absolute; }
+
+.slider__item {
+  padding: 1px 20px 0 20px;
+  width: 260px;
+  height: 239px;
+  color: white; }
+
+.slider__item--1 {
+  background-image: url(../img/step1.jpg); }
+
+.slider__item--2 {
+  background-image: url(../img/step2.jpg); }
+
+.slider__item--3 {
+  background-image: url(../img/step3.jpg); }
+
+.slider__step-number {
+  margin: 69px 0 0 0;
+  padding: 0 0 0 2px;
+  width: 66px;
+  height: 18px;
+  border: 1px solid #ff4e50;
+  border-radius: 30px;
+  background-color: #ff4e50;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: normal; }
+
+.slider__step-number--2 {
+  margin: 99px 0 0 0; }
+
+.slider__step-header {
+  margin: 14px 0 0 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold; }
+
+.slider__text {
+  margin: 11px 0 0 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300; }
