@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,500,500italic,300italic,300,700,700italic,900,900italic,400italic,400);
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+/*.test-wrapper {
+	width: 768px;
+	margin: 0 auto;
+}*/
+body {
+  background-image: url(../img/header-bg-small.jpg);
+  background-position: top center;
+  background-repeat: no-repeat; }
+
+/*HEADER  STARTS  HERE*/
+/*HEADER  STARTS  HERE*/
+/*HEADER  STARTS  HERE*/
+header {
+  padding: 1px 0 0 0;
+  height: 539px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold; }
+
+.header__link {
+  color: white;
+  font-size: 14px; }
+
+.header__main-header {
+  margin: 103px auto 0;
+  width: 180px;
+  text-align: center; }
+
+.header__link--main-header {
+  font-size: 20px;
+  letter-spacing: 1px; }
+
+.header__authorization-block {
+  margin: 20px auto 0;
+  width: 185px; }
+
+.header__link--authorization {
+  display: inline-block;
+  padding: 7px 15px 7px 14px;
+  border: 2px solid transparent;
+  border-radius: 30px; }
+
+.header__link--authorization:last-child {
+  border: 2px solid white; }
+
+.header__underheader {
+  margin: 23px auto 0;
+  width: 280px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px; }
+
+.header__second-underheader {
+  margin: 8px auto 0;
+  width: 220px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300; }
+
+.header__link--find {
+  display: block;
+  margin: 14px auto;
+  width: 278px;
+  background-color: #ff4e50;
+  border: 1px solid #ff4e50;
+  border-radius: 30px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 14px; }
+
+/*"HOW WORKS"  BLOCK  STARTS  HERE*/
+/*"HOW WORKS"  BLOCK  STARTS  HERE*/
+/*"HOW WORKS"  BLOCK  STARTS  HERE*/
+.how-works-block {
+  margin: 34px 0 0 0; }
+
+.how-works-block__header {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: bold; }
