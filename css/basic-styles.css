@@ -15,10 +15,10 @@ a {
   display: block;
   clear: both; }
 
-/*.test-wrapper {
-	width: 768px;
-	margin: 0 auto;
-}*/
+.test-wrapper {
+  width: 768px;
+  margin: 0 auto; }
+
 body {
   background-image: url(../img/header-bg-small.jpg);
   background-position: top center;
@@ -90,10 +90,10 @@ header {
 /*"HOW WORKS"  BLOCK  STARTS  HERE*/
 /*"HOW WORKS"  BLOCK  STARTS  HERE*/
 .how-works-block {
-  margin: 34px 0 0 0; }
+  padding: 1px 0 0 0; }
 
 .how-works-block__header {
-  margin: 0 0 14px 0;
+  margin: 33px 0 14px 0;
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
@@ -129,13 +129,13 @@ header {
   color: white; }
 
 .slider__item--1 {
-  background-image: url(../img/step1.jpg); }
+  background-image: url(../img/step1_small.jpg); }
 
 .slider__item--2 {
-  background-image: url(../img/step2.jpg); }
+  background-image: url(../img/step2_small.jpg); }
 
 .slider__item--3 {
-  background-image: url(../img/step3.jpg); }
+  background-image: url(../img/step3_small.jpg); }
 
 .slider__step-number {
   margin: 69px 0 0 0;

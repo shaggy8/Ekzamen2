@@ -3,10 +3,10 @@
 @import "variables";
 
 
-/*.test-wrapper {
+.test-wrapper {
 	width: 768px;
 	margin: 0 auto;
-}*/
+}
 
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -100,11 +100,11 @@ header {
 
 
 .how-works-block {
-	margin: 34px 0 0 0;
+	padding: 1px 0 0 0;
 }
 
 .how-works-block__header {
-	margin: 0 0 14px 0;
+	margin: 33px 0 14px 0;
 	text-align: center;
 	font-family: $siteFont1;
 	font-size: 22px;
@@ -147,15 +147,15 @@ header {
 }
 
 .slider__item--1 {
-	background-image: url(../img/step1.jpg);
+	background-image: url(../img/step1_small.jpg);
 }
 
 .slider__item--2 {
-	background-image: url(../img/step2.jpg);
+	background-image: url(../img/step2_small.jpg);
 }
 
 .slider__item--3 {
-	background-image: url(../img/step3.jpg);
+	background-image: url(../img/step3_small.jpg);
 }
 
 .slider__step-number {

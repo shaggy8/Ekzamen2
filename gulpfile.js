@@ -59,4 +59,5 @@ gulp.task('default', function(){
 gulp.task('watch', function(){
     gulp.watch('scss/*', ['sass']);
     gulp.watch('raw-images/*', ['minify-img']);
+    gulp.watch('raw-sprite/*', ['sprite']);
 });
