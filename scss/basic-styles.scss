@@ -115,17 +115,31 @@ header {
 	position: relative;
 	margin: 10px auto;
 	width: 300px;
+	overflow: hidden;
 }
 
-/*.slider__wrapper:first-child {
-	margin-top: 14px;
-}*/
+.slider {
+	position: relative;
+	width: 20000em;
+}
 
-.slider__button--left, .slider__button--right {
+.slider__button {
 	position: absolute;
+	top: 0;
+	width: 150px;
+	height: 56px;
+}
+
+.slider__button--prev {
+	left: 0;
+}
+
+.slider__button--next {
+	right: 0;
 }
 
 .slider__item {
+	float: left;
 	padding: 1px 20px 0 20px;
 	width: 260px;
 	height: 239px;

@@ -45,9 +45,9 @@ gulp.task('minify-img', function(){
 });
  
 gulp.task('sprite', function () {
-    var spriteData = gulp.src('raw-sprite/*.jpg').pipe(spritesmith({
-      imgName: 'sprite.jpg',
-      cssName: 'sprite.css'
+    var spriteData = gulp.src('raw-sprite/*.png').pipe(spritesmith({
+      imgName: 'sprite.png',
+      cssName: '../sprite.css'
     }));
     return spriteData.pipe(gulp.dest('raw-images'));
 });
