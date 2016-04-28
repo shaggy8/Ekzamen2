@@ -208,7 +208,7 @@ header {
 	width: 215px;
 }
 
-@media screen and (min-width: 480px) {
+/*@media screen and (min-width: 480px) {
 	.partners {
 		width: 480px;
 	}
@@ -220,7 +220,7 @@ header {
 	.partners__block {
 		float: left;
 	}
-}
+}*/
 
 .partners__avatar-link {
 	display: block;
@@ -292,4 +292,13 @@ header {
 	font-family: $siteFont1;
 	font-size: 14px;
 	font-weight: bold;
+}
+
+
+/*IDEAS  STARTS  HERE*/
+/*IDEAS  STARTS  HERE*/
+/*IDEAS  STARTS  HERE*/
+
+.ideas__header {
+	@extend %headers;
 }

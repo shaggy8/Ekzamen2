@@ -16,7 +16,7 @@ a {
   display: block;
   clear: both; }
 
-.how-works-block__header, .partners__header {
+.how-works-block__header, .partners__header, .ideas__header {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
@@ -184,14 +184,19 @@ header {
   margin: 11px auto 24px;
   width: 215px; }
 
-@media screen and (min-width: 480px) {
-  .partners {
-    width: 480px; }
-  .partners__header {
-    width: 404px; }
-  .partners__block {
-    float: left; } }
+/*@media screen and (min-width: 480px) {
+	.partners {
+		width: 480px;
+	}
 
+	.partners__header {
+		width: 404px;
+	}
+
+	.partners__block {
+		float: left;
+	}
+}*/
 .partners__avatar-link {
   display: block;
   margin: 0 auto;
@@ -254,3 +259,7 @@ header {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: bold; }
+
+/*IDEAS  STARTS  HERE*/
+/*IDEAS  STARTS  HERE*/
+/*IDEAS  STARTS  HERE*/
