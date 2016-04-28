@@ -3,18 +3,12 @@
 @import "variables";
 
 
-.test-wrapper {
-	width: 768px;
-	margin: 0 auto;
-}
-
-
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,500,500italic,300italic,300,700,700italic,900,900italic,400italic,400);
 
 
 body {
-	background-image: url(../img/header-bg-small.jpg);
+	background-image: url(../img/header-bg_small.jpg);
 	background-position: top center;
 	background-repeat: no-repeat;
 }
@@ -33,7 +27,6 @@ header {
 }
 
 .header__link {
-	color: white;
 	font-size: 14px;
 }
 
@@ -94,9 +87,9 @@ header {
 }
 
 
-/*"HOW WORKS"  BLOCK  STARTS  HERE*/
-/*"HOW WORKS"  BLOCK  STARTS  HERE*/
-/*"HOW WORKS"  BLOCK  STARTS  HERE*/
+/*"HOW WORKS"  STARTS  HERE*/
+/*"HOW WORKS"  STARTS  HERE*/
+/*"HOW WORKS"  STARTS  HERE*/
 
 
 .how-works-block {
@@ -105,10 +98,7 @@ header {
 
 .how-works-block__header {
 	margin: 33px 0 14px 0;
-	text-align: center;
-	font-family: $siteFont1;
-	font-size: 22px;
-	font-weight: bold;
+	@extend %headers;
 }
 
 .slider__wrapper {
@@ -191,4 +181,115 @@ header {
 	font-family: $siteFont2;
 	font-size: 14px;
 	font-weight: 300;
+}
+
+
+/*PARTNERS  STARTS  HERE*/
+/*PARTNERS  STARTS  HERE*/
+/*PARTNERS  STARTS  HERE*/
+
+
+.partners {
+	margin: 0 auto;
+	padding: 1px 0 0 0;
+	width: 320px;
+}
+
+.partners__header {
+	margin: 23px auto 0;
+	padding: 0 6px 0 0;
+	width: 265px;
+	@extend %headers;
+}
+
+.partners__block {
+	position: relative;
+	margin: 11px auto 24px;
+	width: 215px;
+}
+
+@media screen and (min-width: 480px) {
+	.partners {
+		width: 480px;
+	}
+
+	.partners__header {
+		width: 404px;
+	}
+
+	.partners__block {
+		float: left;
+	}
+}
+
+.partners__avatar-link {
+	display: block;
+	margin: 0 auto;
+	width: 120px;
+	height: 120px;
+	border: 1px solid transparent;
+	border-radius: 80px;
+	overflow: hidden;
+}
+
+.partners__icon {
+	position: absolute;
+	top: 87px;
+	right: 43px;
+	width: 33px;
+	height: 33px;
+	border: 4px solid white;
+	border-radius: 20px;
+}
+
+.partners__icon--tv {
+	background-image: url(../img/sprite.png);
+	background-position: 0px -33px;
+}
+
+.partners__icon--coffee {
+	background-image: url(../img/sprite.png);
+	background-position: 0px 0px;
+}
+
+.partners__icon--chemical {
+	background-image: url(../img/sprite.png);
+	background-position: -33px -32px;
+}
+
+.partners__icon--paperfly {
+	background-image: url(../img/sprite.png);
+	background-position: -33px 0px;
+}
+
+.partners__name {
+	margin: 18px 0 0 0;
+	color: #333;
+	text-align: center;
+	font-family: $siteFont1;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.partners__about-text {
+	margin: 13px 0 0 0;
+	color: #666;
+	text-align: center;
+	font-family: $siteFont2;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.partners__other-partners {
+	display: block;
+	margin: 25px auto;
+	width: 275px;
+	border: 2px solid $mainColor;
+	border-radius: 30px;
+	color: $mainColor;
+	line-height: 36px;
+	text-align: center;
+	font-family: $siteFont1;
+	font-size: 14px;
+	font-weight: bold;
 }

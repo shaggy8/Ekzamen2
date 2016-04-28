@@ -1,7 +1,7 @@
 body {
-  background-image: url(../img/header-bg-big.jpg); }
+  background-image: url(../img/header-bg_medium.jpg); }
 
-.test-wrapper {
+.tablet-wrapper {
   width: 768px;
   margin: 0 auto; }
 
@@ -33,15 +33,19 @@ header {
   margin: 33px auto;
   width: 223px; }
 
-/*"HOW WORKS"  BLOCK  STARTS  HERE*/
-/*"HOW WORKS"  BLOCK  STARTS  HERE*/
-/*"HOW WORKS"  BLOCK  STARTS  HERE*/
+/*"HOW WORKS"  STARTS  HERE*/
+/*"HOW WORKS"  STARTS  HERE*/
+/*"HOW WORKS"  STARTS  HERE*/
+.how-works-block {
+  margin: 0 auto;
+  width: 768px; }
+
 .how-works-block__header {
   margin: 93px 0 33px 1.5%; }
 
 .slider__wrapper {
   display: inline-block;
-  margin: 0 0.7% 0 1.5%;
+  margin: 0 0.7% 0 1.38%;
   width: 236px; }
 
 .slider__button {
@@ -82,3 +86,19 @@ header {
 
 .slider__step-number--2 {
   margin: 259px 0 0 1px; }
+
+/*PARTNERS  STARTS  HERE*/
+/*PARTNERS  STARTS  HERE*/
+/*PARTNERS  STARTS  HERE*/
+.partners__header {
+  margin-top: 92px; }
+
+.partners__block {
+  margin: 29px 0 25px 5px; }
+
+.partners__block--2, .partners__block--4 {
+  margin-left: 40px; }
+
+.partners__other-partners {
+  margin: 11px auto;
+  width: 188px; }

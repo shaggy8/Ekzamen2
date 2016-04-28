@@ -1,15 +1,9 @@
+body {
+  background-image: url(../img/header-bg_big.jpg); }
+
 .wrapper-for-desktop {
   margin: 0 auto;
   width: 940px; }
-
-body {
-  background-image: url(../img/header-bg-big.jpg); }
-
-/*HEADER  STARTS  HERE*/
-/*HEADER  STARTS  HERE*/
-/*HEADER  STARTS  HERE*/
-body {
-  background-image: url(../img/header-bg-big.jpg); }
 
 /*HEADER  STARTS  HERE*/
 /*HEADER  STARTS  HERE*/
@@ -40,9 +34,9 @@ header {
   margin: 33px auto;
   width: 223px; }
 
-/*"HOW WORKS"  BLOCK  STARTS  HERE*/
-/*"HOW WORKS"  BLOCK  STARTS  HERE*/
-/*"HOW WORKS"  BLOCK  STARTS  HERE*/
+/*"HOW WORKS"  STARTS  HERE*/
+/*"HOW WORKS"  STARTS  HERE*/
+/*"HOW WORKS"  STARTS  HERE*/
 .how-works-block__header {
   margin: 93px 0 23px 0; }
 
@@ -85,3 +79,26 @@ header {
 
 .slider__step-number--2 {
   margin: 259px 0 0 2px; }
+
+/*PARTNERS  STARTS  HERE*/
+/*PARTNERS  STARTS  HERE*/
+/*PARTNERS  STARTS  HERE*/
+.partners {
+  width: 100%; }
+
+.partners__header {
+  margin-top: 82px; }
+
+.partners__block {
+  margin: 29px 0 25px 0; }
+
+.partners__block--2 {
+  margin-left: 26px;
+  margin-right: 26px; }
+
+.partners__block--4 {
+  margin-left: 26px; }
+
+.partners__other-partners {
+  margin: 11px auto;
+  width: 188px; }
