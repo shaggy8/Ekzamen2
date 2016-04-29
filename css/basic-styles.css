@@ -22,6 +22,10 @@ a {
   font-size: 22px;
   font-weight: bold; }
 
+.wrapper {
+  width: 320px;
+  margin: 0 auto; }
+
 body {
   background-image: url(../img/header-bg_small.jpg);
   background-position: top center;
@@ -263,3 +267,34 @@ header {
 /*IDEAS  STARTS  HERE*/
 /*IDEAS  STARTS  HERE*/
 /*IDEAS  STARTS  HERE*/
+.ideas__header {
+  margin: 34px 0 0 0; }
+
+.ideas-box {
+  height: 96px;
+  background-color: #893; }
+
+.ideas__block {
+  position: relative;
+  margin: 11px auto;
+  width: 300px;
+  height: 120px;
+  border-radius: 5px;
+  overflow: hidden; }
+
+.ideas__image {
+  width: 300px; }
+
+.ideas__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 300px;
+  height: 120px;
+  color: white;
+  line-height: 120px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: bold; }
