@@ -39,7 +39,7 @@
 		</h1>
 		<h2 class="header__underheader">Share your holiday dreams</h2>
 		<p class="header__second-underheader">And find the perfect partner to fullfill it</p>
-		<a href="#" class="header__link header__link--find">Find your holiday partner</a>
+		<button class="header__link header__link--button">Find your holiday partner</button>
 	</header>
 	<div class="how-works-block">
 		<h3 class="how-works-block__header">How Urlaubsglück works?</h3>
@@ -143,19 +143,32 @@
 				<p class="partners__about-text">Based in Chicago. I love playing tennis and loud music.</p>
 			</div>
 		</div>
-		<a href="#" class="partners__other-partners">See other partners</a>
+		<button class="partners__button">See other partners</button>
 	</div>
 	<div class="ideas">
 		<h3 class="ideas__header">Discover holiday activity ideas</h3>
 		<div class="ideas__box"></div>
 		<script type="text/tmpl" id="ideas">
-			<% for (var i=0; i<7; i++) { %>
+			<% var k = 7; %>
+			<% if (hits.length < 7) k = hits.length; %>
+			<% for (var i=0; i<k; i++) { %>
 				<div class="ideas__block">
 					<img src="<%= hits[i].webformatURL %>" alt="<%= hits[i].tags %>" class="ideas__image">
-					<a href="<%= hits[i].pageURL%>" class="ideas__link"><%= hits[i].tags %></a>
+					<a href="<%= hits[i].pageURL%>" class="ideas__link" target="_blanc"><%= hits[i].tags %></a>
 				</div>
 			<% }; %>
+			<% if (!hits.length) { %>
+				<p class="search__greating">I am sorry, no images found by your request.</p>
+			<% }; %>
 		</script>
+	</div>
+	<div class="search">
+		<h3 class="search__header">Discover holiday activity ideas</h3>
+		<p class="search__greating">Hi! What are your holiday interests?</p>
+		<form action="#" class="search__form">
+			<input class="search__input" type="search" placeholder="Enter your interests">
+			<button type="submit" class="search__button">Search partners</button>
+		</form>
 	</div>
 </div></div>
 </body>

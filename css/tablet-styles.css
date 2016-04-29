@@ -29,9 +29,9 @@ header {
   width: 400px;
   font-size: 24px; }
 
-.header__link--find {
+.header__link--button {
   margin: 33px auto;
-  width: 223px; }
+  width: 224px; }
 
 /*"HOW WORKS"  STARTS  HERE*/
 /*"HOW WORKS"  STARTS  HERE*/
@@ -99,6 +99,6 @@ header {
 .partners__block--2, .partners__block--4 {
   margin-left: 40px; }
 
-.partners__other-partners {
-  margin: 11px auto;
-  width: 188px; }
+.partners__button {
+  margin: 13px auto;
+  width: 192px; }

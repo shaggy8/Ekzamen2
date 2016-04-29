@@ -16,7 +16,7 @@ a {
   display: block;
   clear: both; }
 
-.how-works-block__header, .partners__header, .ideas__header {
+.how-works-block__header, .partners__header, .ideas__header, .search__header {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
@@ -81,16 +81,20 @@ header {
   font-size: 18px;
   font-weight: 300; }
 
-.header__link--find {
+.header__link--button {
   display: block;
   margin: 14px auto;
-  width: 278px;
-  background-color: #ff4e50;
-  border: 1px solid #ff4e50;
+  width: 280px;
+  height: 40px;
+  border: none;
   border-radius: 30px;
-  line-height: 38px;
-  text-align: center;
-  font-size: 14px; }
+  background-color: #ff4e50;
+  color: white;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer; }
 
 /*"HOW WORKS"  STARTS  HERE*/
 /*"HOW WORKS"  STARTS  HERE*/
@@ -142,9 +146,8 @@ header {
 .slider__step-number {
   margin: 69px 0 0 0;
   padding: 0 0 0 2px;
-  width: 66px;
-  height: 18px;
-  border: 1px solid #ff4e50;
+  width: 68px;
+  height: 20px;
   border-radius: 30px;
   background-color: #ff4e50;
   line-height: 18px;
@@ -206,7 +209,6 @@ header {
   margin: 0 auto;
   width: 120px;
   height: 120px;
-  border: 1px solid transparent;
   border-radius: 80px;
   overflow: hidden; }
 
@@ -251,18 +253,20 @@ header {
   font-size: 14px;
   font-weight: 300; }
 
-.partners__other-partners {
+.partners__button {
   display: block;
-  margin: 25px auto;
-  width: 275px;
+  margin: 33px auto;
+  width: 280px;
+  height: 40px;
   border: 2px solid #ff4e50;
   border-radius: 30px;
+  background-color: white;
   color: #ff4e50;
-  line-height: 36px;
-  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  font-weight: bold; }
+  font-weight: bold;
+  outline: none;
+  cursor: pointer; }
 
 /*IDEAS  STARTS  HERE*/
 /*IDEAS  STARTS  HERE*/
@@ -298,3 +302,45 @@ header {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: bold; }
+
+/*SEARCH  STARTS  HERE*/
+/*SEARCH  STARTS  HERE*/
+/*SEARCH  STARTS  HERE*/
+.search__header {
+  margin: 31px 0 0 0; }
+
+.search__greating {
+  margin: 10px 0 0 0;
+  color: #333;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300; }
+
+.search__input {
+  display: block;
+  margin: 15px auto 0;
+  padding: 0 0 0 11px;
+  width: 279px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #999;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300; }
+
+.search__button {
+  display: block;
+  margin: 10px auto 0;
+  width: 280px;
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ff4e50;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer; }
