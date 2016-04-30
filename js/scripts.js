@@ -64,7 +64,12 @@ jQuery(function() {
     $.ajax({
       'url': 'https://pixabay.com/api/?key=2482774-53251b722f6b9597c9c0a6080&q=' + words + '&id=' + id + '&image_type=photo',
       'success': function(response) {
-        $('.ideas__box').html( tmpl('ideas', response) );
+        $('.ideas__box')
+            .html( tmpl('ideas', response) )
+            .masonry({
+              gutter: 20,
+              fitWidth: true
+            });
       }
   });
   }

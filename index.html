@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/basic-styles.css">
  	<!-- <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/tablet-styles.css"> -->
  	<!-- and (max-width: 939px) -->
-	<!-- <link rel="stylesheet" media="screen and (min-width: 940px)"href="css/desktop-styles.css">  -->
+	<link rel="stylesheet" media="screen and (min-width: 940px)"href="css/desktop-styles.css"> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<script src="js/jquery.jcarousel.min.js"></script>
 	<script src="js/tmpl.js"></script>
@@ -28,148 +28,161 @@
 	<![endif]-->
 </head>
 <body>
-<div class="wrapper-for-desktop"><div class="wrapper">
-	<header>
-		<div class="header__authorization-block">
-			<a href="#" class="header__link header__link--authorization">Log in</a>
-			<a href="#" class="header__link header__link--authorization">Sign up</a>
+	<div class="wrapper-for-desktop"><div class="wrapper">
+		<header>
+			<div class="header__authorization-block clearfix">
+				<button class="header__button header__button--authorization">Log in</button>
+				<button class="header__button header__button--registration">Sign up</button>
+			</div>
+			<h1 class="header__main-header">
+				<a href="#" class="header__main-header header__main-header--link">URLAUBSGLÜCK</a>
+			</h1>
+			<h2 class="header__underheader">Share your holiday dreams</h2>
+			<p class="header__second-underheader">And find the perfect partner to fullfill it</p>
+			<button class="header__button header__button--big">Find your holiday partner</button>
+		</header>
+		<div class="how-works-block">
+			<h3 class="how-works-block__header">How Urlaubsglück works?</h3>
+			<div class="slider__wrapper slider__wrapper--1">
+				<div class="slider slider--1">
+					<div class="slider__item slider__item--1">
+						<h5 class="slider__step-number">step 1</h5>
+						<h5 class="slider__step-header">Sed leo enim, condimentum</h5>
+						<p class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+					</div>
+					<div class="slider__item slider__item--2">
+						<h5 class="slider__step-number slider__step-number--2">step 2</h5>
+						<h5 class="slider__step-header">Morbi velit risus</h5>
+						<p class="slider__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+					</div>
+					<div class="slider__item slider__item--3">
+						<h5 class="slider__step-number">step 3</h5>
+						<h5 class="slider__step-header">Sed leo enim, condimentum</h5>
+						<p class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+					</div>
+				</div>
+				<a href="#" class="slider__button slider__button--prev slider__button--prev-1"></a>
+				<a href="#" class="slider__button slider__button--next slider__button--next-1"></a>
+			</div>
+			<div class="slider__wrapper slider__wrapper--2">
+				<div class="slider slider--2">
+					<div class="slider__item slider__item--2">
+						<h5 class="slider__step-number slider__step-number--2">step 2</h5>
+						<h5 class="slider__step-header">Morbi velit risus</h5>
+						<p class="slider__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+					</div>
+					<div class="slider__item slider__item--3">
+						<h5 class="slider__step-number">step 3</h5>
+						<h5 class="slider__step-header">Sed leo enim, condimentum</h5>
+						<p class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+					</div>
+					<div class="slider__item slider__item--1">
+						<h5 class="slider__step-number">step 1</h5>
+						<h5 class="slider__step-header">Sed leo enim, condimentum</h5>
+						<p class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+					</div>
+				</div>
+				<a href="#" class="slider__button slider__button--prev slider__button--prev-2"></a>
+				<a href="#" class="slider__button slider__button--next slider__button--next-2"></a>
+			</div>
+			<div class="slider__wrapper slider__wrapper--3">
+				<div class="slider slider--3">
+					<div class="slider__item slider__item--3">
+						<h5 class="slider__step-number">step 3</h5>
+						<h5 class="slider__step-header">Sed leo enim, condimentum</h5>
+						<p class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+					</div>
+					<div class="slider__item slider__item--1">
+						<h5 class="slider__step-number">step 1</h5>
+						<h5 class="slider__step-header">Sed leo enim, condimentum</h5>
+						<p class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+					</div>
+					<div class="slider__item slider__item--2">
+						<h5 class="slider__step-number slider__step-number--2">step 2</h5>
+						<h5 class="slider__step-header">Morbi velit risus</h5>
+						<p class="slider__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+					</div>
+				</div>
+				<a href="#" class="slider__button slider__button--prev slider__button--prev-3"></a>
+				<a href="#" class="slider__button slider__button--next slider__button--next-3"></a>
+			</div>
 		</div>
-		<h1 class="header__main-header">
-			<a href="#" class="header__link header__link--main-header">URLAUBSGLÜCK</a>
-		</h1>
-		<h2 class="header__underheader">Share your holiday dreams</h2>
-		<p class="header__second-underheader">And find the perfect partner to fullfill it</p>
-		<button class="header__link header__link--button">Find your holiday partner</button>
-	</header>
-	<div class="how-works-block">
-		<h3 class="how-works-block__header">How Urlaubsglück works?</h3>
-		<div class="slider__wrapper slider__wrapper--1">
-			<div class="slider slider--1">
-				<div class="slider__item slider__item--1">
-					<h5 class="slider__step-number">step 1</h5>
-					<h5 class="slider__step-header">Sed leo enim, condimentum</h5>
-					<p class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+		<div class="partners">
+			<h3 class="partners__header">Meet a partner for your best holiday</h3>
+			<div class="clearfix">
+				<div class="partners__block partners__block--1">
+					<a href="#" class="partners__avatar-link">
+						<img src="img/bradley-hunter.jpg" alt="avatar">
+					</a>
+					<h6 class="partners__name"><a href="#">Bradley Hunter</a></h6>
+					<div class="partners__icon partners__icon--tv"></div>
+					<p class="partners__about-text">Based in Chicago. I love playing tennis and loud music.</p>
 				</div>
-				<div class="slider__item slider__item--2">
-					<h5 class="slider__step-number slider__step-number--2">step 2</h5>
-					<h5 class="slider__step-header">Morbi velit risus</h5>
-					<p class="slider__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
+				<div class="partners__block partners__block--2">
+					<a href="#" class="partners__avatar-link">
+						<img src="img/heather-walker.jpg" alt="avatar">
+					</a>
+					<h6 class="partners__name"><a href="#">Heather Walker</a></h6>
+					<div class="partners__icon partners__icon--coffee"></div>
+					<p class="partners__about-text">I'm a happy person that loves cats and climbing on mountains.</p>
 				</div>
-				<div class="slider__item slider__item--3">
-					<h5 class="slider__step-number">step 3</h5>
-					<h5 class="slider__step-header">Sed leo enim, condimentum</h5>
-					<p class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
+				<div class="partners__block partners__block--3">
+					<a href="#" class="partners__avatar-link">
+						<img src="img/lucas-marsha.jpg" alt="avatar">
+					</a>
+					<h6 class="partners__name"><a href="#">Lucas Marsha</a></h6>
+					<div class="partners__icon partners__icon--chemical"></div>
+					<p class="partners__about-text">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
+				</div>
+				<div class="partners__block partners__block--4">
+					<a href="#" class="partners__avatar-link">
+						<img src="img/bradley-hunter-woman.jpg" alt="avatar">
+					</a>
+					<h6 class="partners__name"><a href="#">Bradley Hunter</a></h6>
+					<div class="partners__icon partners__icon--paperfly"></div>
+					<p class="partners__about-text">Based in Chicago. I love playing tennis and loud music.</p>
 				</div>
 			</div>
-			<a href="#" class="slider__button slider__button--prev slider__button--prev-1"></a>
-			<a href="#" class="slider__button slider__button--next slider__button--next-1"></a>
+			<button class="partners__button">See other partners</button>
 		</div>
-		<div class="slider__wrapper slider__wrapper--2">
-			<div class="slider slider--2">
-				<div class="slider__item slider__item--2">
-					<h5 class="slider__step-number slider__step-number--2">step 2</h5>
-					<h5 class="slider__step-header">Morbi velit risus</h5>
-					<p class="slider__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
-				</div>
-				<div class="slider__item slider__item--3">
-					<h5 class="slider__step-number">step 3</h5>
-					<h5 class="slider__step-header">Sed leo enim, condimentum</h5>
-					<p class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
-				</div>
-				<div class="slider__item slider__item--1">
-					<h5 class="slider__step-number">step 1</h5>
-					<h5 class="slider__step-header">Sed leo enim, condimentum</h5>
-					<p class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
-				</div>
-			</div>
-			<a href="#" class="slider__button slider__button--prev slider__button--prev-2"></a>
-			<a href="#" class="slider__button slider__button--next slider__button--next-2"></a>
+		<div class="ideas">
+			<h3 class="ideas__header">Discover holiday activity ideas</h3>
+			<div class="ideas__box"></div>
+			<script type="text/tmpl" id="ideas">
+				<% var k = 7; %>
+				<% if (hits.length < 7) k = hits.length; %>
+				<% for (var i=0; i<k; i++) { %>
+					<% if (hits[i].webformatHeight <= 360) { %>
+					<div class="ideas__block ideas__block--width2">
+					<% } else { %>
+					<div class="ideas__block">
+					<% }; %>
+					<% if (hits[i].webformatWidth < 488) { %>
+						<img src="<%= hits[i].webformatURL %>" alt="<%= hits[i].tags %>" class="ideas__image ideas__image--short">
+					<% } else { %>
+						<img src="<%= hits[i].webformatURL %>" alt="<%= hits[i].tags %>" class="ideas__image">
+					<% }; %>
+						<a href="<%= hits[i].pageURL%>" class="ideas__link" target="_blanc"><%= hits[i].tags %></a>
+					</div>
+				<% }; %>
+				<% if (!hits.length) { %>
+					<p class="search__greating">I am sorry, no images found by your request.</p>
+				<% }; %>
+			</script>
 		</div>
-		<div class="slider__wrapper slider__wrapper--3">
-			<div class="slider slider--3">
-				<div class="slider__item slider__item--3">
-					<h5 class="slider__step-number">step 3</h5>
-					<h5 class="slider__step-header">Sed leo enim, condimentum</h5>
-					<p class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
-				</div>
-				<div class="slider__item slider__item--1">
-					<h5 class="slider__step-number">step 1</h5>
-					<h5 class="slider__step-header">Sed leo enim, condimentum</h5>
-					<p class="slider__text">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
-				</div>
-				<div class="slider__item slider__item--2">
-					<h5 class="slider__step-number slider__step-number--2">step 2</h5>
-					<h5 class="slider__step-header">Morbi velit risus</h5>
-					<p class="slider__text">Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
-				</div>
-			</div>
-			<a href="#" class="slider__button slider__button--prev slider__button--prev-3"></a>
-			<a href="#" class="slider__button slider__button--next slider__button--next-3"></a>
+		<div class="search">
+			<h3 class="search__header">Discover holiday activity ideas</h3>
+			<p class="search__greating">Hi! What are your holiday interests?</p>
+			<form action="#" class="search__form">
+				<input class="search__input" type="search" placeholder="Enter your interests">
+				<button type="submit" class="search__button">Search partners</button>
+			</form>
 		</div>
 	</div>
-	<div class="partners">
-		<h3 class="partners__header">Meet a partner for your best holiday</h3>
-		<div class="clearfix">
-			<div class="partners__block partners__block--1">
-				<a href="#" class="partners__avatar-link">
-					<img src="img/bradley-hunter.jpg" alt="avatar">
-				</a>
-				<h6 class="partners__name"><a href="#">Bradley Hunter</a></h6>
-				<div class="partners__icon partners__icon--tv"></div>
-				<p class="partners__about-text">Based in Chicago. I love playing tennis and loud music.</p>
-			</div>
-			<div class="partners__block partners__block--2">
-				<a href="#" class="partners__avatar-link">
-					<img src="img/heather-walker.jpg" alt="avatar">
-				</a>
-				<h6 class="partners__name"><a href="#">Heather Walker</a></h6>
-				<div class="partners__icon partners__icon--coffee"></div>
-				<p class="partners__about-text">I'm a happy person that loves cats and climbing on mountains.</p>
-			</div>
-			<div class="partners__block partners__block--3">
-				<a href="#" class="partners__avatar-link">
-					<img src="img/lucas-marsha.jpg" alt="avatar">
-				</a>
-				<h6 class="partners__name"><a href="#">Lucas Marsha</a></h6>
-				<div class="partners__icon partners__icon--chemical"></div>
-				<p class="partners__about-text">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
-			</div>
-			<div class="partners__block partners__block--4">
-				<a href="#" class="partners__avatar-link">
-					<img src="img/bradley-hunter-woman.jpg" alt="avatar">
-				</a>
-				<h6 class="partners__name"><a href="#">Bradley Hunter</a></h6>
-				<div class="partners__icon partners__icon--paperfly"></div>
-				<p class="partners__about-text">Based in Chicago. I love playing tennis and loud music.</p>
-			</div>
+	<footer>
+		<div class="wrapper-for-desktop">
+			
 		</div>
-		<button class="partners__button">See other partners</button>
-	</div>
-	<div class="ideas">
-		<h3 class="ideas__header">Discover holiday activity ideas</h3>
-		<div class="ideas__box"></div>
-		<script type="text/tmpl" id="ideas">
-			<% var k = 7; %>
-			<% if (hits.length < 7) k = hits.length; %>
-			<% for (var i=0; i<k; i++) { %>
-				<div class="ideas__block">
-					<img src="<%= hits[i].webformatURL %>" alt="<%= hits[i].tags %>" class="ideas__image">
-					<a href="<%= hits[i].pageURL%>" class="ideas__link" target="_blanc"><%= hits[i].tags %></a>
-				</div>
-			<% }; %>
-			<% if (!hits.length) { %>
-				<p class="search__greating">I am sorry, no images found by your request.</p>
-			<% }; %>
-		</script>
-	</div>
-	<div class="search">
-		<h3 class="search__header">Discover holiday activity ideas</h3>
-		<p class="search__greating">Hi! What are your holiday interests?</p>
-		<form action="#" class="search__form">
-			<input class="search__input" type="search" placeholder="Enter your interests">
-			<button type="submit" class="search__button">Search partners</button>
-		</form>
-	</div>
-</div></div>
+	</footer></div>
 </body>
 </html>

@@ -14,10 +14,14 @@ header {
 
 .header__authorization-block {
   float: right;
-  margin: 37px 4% 0 0; }
+  margin: 37px 6.5% 0 0;
+  width: auto; }
+
+.header__button--authorization {
+  width: 82px; }
 
 .header__main-header {
-  margin: 34px 0 0 6.3%; }
+  margin: 34px 0 0 5.3%; }
 
 .header__underheader {
   margin: 140px auto 0;
@@ -29,7 +33,7 @@ header {
   width: 400px;
   font-size: 24px; }
 
-.header__link--button {
+.header__button--big {
   margin: 33px auto;
   width: 224px; }
 
@@ -102,3 +106,52 @@ header {
 .partners__button {
   margin: 13px auto;
   width: 192px; }
+
+/*IDEAS  STARTS  HERE*/
+/*IDEAS  STARTS  HERE*/
+/*IDEAS  STARTS  HERE*/
+.ideas__header {
+  margin: 97px 0 33px 0; }
+
+.ideas__block {
+  margin: 0 0 20px 0;
+  width: 236px;
+  height: 310px; }
+
+.ideas__block--width2 {
+  width: 492px; }
+
+.ideas__image {
+  width: auto;
+  height: 100%; }
+
+.ideas__image--short {
+  width: 100%;
+  height: auto; }
+
+.ideas__link {
+  line-height: 310px; }
+
+/*SEARCH  STARTS  HERE*/
+/*SEARCH  STARTS  HERE*/
+/*SEARCH  STARTS  HERE*/
+.search__header {
+  margin: 75px 0 0 0; }
+
+.search__greating {
+  margin: 31px 0 0 0; }
+
+.search__form {
+  margin: 36px auto 0;
+  width: 410px; }
+
+.search__input {
+  display: inline-block;
+  margin: 0 6px 0 0;
+  padding: 0 0 0 13px;
+  width: 240px; }
+
+.search__button {
+  display: inline-block;
+  margin: 0;
+  width: 160px; }

@@ -41,30 +41,38 @@ header {
   font-family: "Montserrat", sans-serif;
   font-weight: bold; }
 
-.header__link {
-  font-size: 14px; }
+.header__button {
+  font-size: 14px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer; }
 
 .header__main-header {
   margin: 103px auto 0;
   width: 180px;
   text-align: center; }
 
-.header__link--main-header {
+.header__main-header--link {
   font-size: 20px;
   letter-spacing: 1px; }
 
 .header__authorization-block {
   margin: 20px auto 0;
-  width: 185px; }
+  width: 200px; }
 
-.header__link--authorization {
-  display: inline-block;
-  padding: 7px 15px 7px 14px;
-  border: 2px solid transparent;
-  border-radius: 30px; }
+.header__button--registration, .header__button--authorization {
+  float: left;
+  width: 90px;
+  height: 35px;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: transparent; }
 
-.header__link--authorization:last-child {
-  border: 2px solid white; }
+.header__button--authorization {
+  width: 86px;
+  border: none; }
 
 .header__underheader {
   margin: 23px auto 0;
@@ -81,7 +89,7 @@ header {
   font-size: 18px;
   font-weight: 300; }
 
-.header__link--button {
+.header__button--big {
   display: block;
   margin: 14px auto;
   width: 280px;
@@ -197,7 +205,7 @@ header {
 	}
 
 	.partners__header {
-		width: 404px;
+		width: 405px;
 	}
 
 	.partners__block {
@@ -274,28 +282,26 @@ header {
 .ideas__header {
   margin: 34px 0 0 0; }
 
-.ideas-box {
-  height: 96px;
-  background-color: #893; }
+.ideas__box {
+  margin: 0 auto; }
 
 .ideas__block {
   position: relative;
-  margin: 11px auto;
+  margin: 11px 10px 0 10px;
   width: 300px;
   height: 120px;
   border-radius: 5px;
   overflow: hidden; }
 
 .ideas__image {
-  width: 300px; }
+  width: 100%; }
 
 .ideas__link {
   position: absolute;
   top: 0;
   left: 0;
   display: block;
-  width: 300px;
-  height: 120px;
+  width: 100%;
   color: white;
   line-height: 120px;
   text-align: center;
@@ -317,9 +323,12 @@ header {
   font-size: 18px;
   font-weight: 300; }
 
+.search__form {
+  margin: 15px auto 0; }
+
 .search__input {
   display: block;
-  margin: 15px auto 0;
+  margin: 0 auto 0;
   padding: 0 0 0 11px;
   width: 279px;
   height: 40px;
