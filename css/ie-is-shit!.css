@@ -51,7 +51,8 @@ header {
   top: 153px;
   width: 30px;
   opacity: .5;
-  background-image: url(../img/arrows.png); }
+  background-image: url(../img/arrows.png);
+  outline: none; }
 
 .slider__button--prev {
   left: 20px; }
