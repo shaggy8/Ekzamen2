@@ -4,17 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>URLAUBSGLÜCK</title>
-	<link rel="stylesheet" href="css/basic-styles.css">
- 	<!-- <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/tablet-styles.css"> -->
- 	<!-- and (max-width: 939px) -->
-	<link rel="stylesheet" media="screen and (min-width: 940px)"href="css/desktop-styles.css"> 
+	<link rel="stylesheet" href="built/basic-styles.css">
+ 	<link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 939px)" href="built/tablet-styles.css">
+	<link rel="stylesheet" media="screen and (min-width: 940px)"href="built/desktop-styles.css"> 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-	<script src="js/jquery.jcarousel.min.js"></script>
-	<script src="js/tmpl.js"></script>
-	<script src="js/masonry.pkgd.min.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="built/jquery.jcarousel.min.js"></script>
+	<script src="built/tmpl.js"></script>
+	<script src="built/masonry.pkgd.min.js"></script>
+	<script src="built/scripts.js"></script>
 	<!--[if gte IE 8]>
-		<link rel="stylesheet" href="css/ie-is-shit!.css">
+		<link rel="stylesheet" href="built/ie-is-shit!.css">
 	<![endif]-->
 	<!--[if lt IE 9]>
 		<script>
@@ -28,18 +27,18 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="wrapper-for-desktop"><div class="wrapper">
+	<div class="wrapper-for-desktop">
 		<header>
 			<div class="header__authorization-block clearfix">
-				<button class="header__button header__button--authorization">Log in</button>
-				<button class="header__button header__button--registration">Sign up</button>
+				<button class="header__authorization-button">Log in</button>
+				<button class="header__registration-button">Sign up</button>
 			</div>
 			<h1 class="header__main-header">
 				<a href="#" class="header__main-header header__main-header--link">URLAUBSGLÜCK</a>
 			</h1>
 			<h2 class="header__underheader">Share your holiday dreams</h2>
 			<p class="header__second-underheader">And find the perfect partner to fullfill it</p>
-			<button class="header__button header__button--big">Find your holiday partner</button>
+			<button class="header__big-button">Find your holiday partner</button>
 		</header>
 		<div class="how-works-block">
 			<h3 class="how-works-block__header">How Urlaubsglück works?</h3>
@@ -157,7 +156,7 @@
 					<% } else { %>
 					<div class="ideas__block">
 					<% }; %>
-					<% if (hits[i].webformatWidth < 488) { %>
+					<% if (hits[i].webformatWidth < 640 || hits[i].webformatHeight <= 360) { %>
 						<img src="<%= hits[i].webformatURL %>" alt="<%= hits[i].tags %>" class="ideas__image ideas__image--short">
 					<% } else { %>
 						<img src="<%= hits[i].webformatURL %>" alt="<%= hits[i].tags %>" class="ideas__image">
@@ -180,9 +179,27 @@
 		</div>
 	</div>
 	<footer>
-		<div class="wrapper-for-desktop">
-			
+		<div class="wrapper-for-desktop clearfix">
+			<a href="#" class="footer__link">URLAUBSGLÜCK</a>
+			<div class="footer__list-block footer__list-block--company">
+				<h6 class="footer__list-header">Company</h6>
+				<ul class=" footer__list footer__list--company clearfix">
+					<li class="footer__list-item"><a href="#">About</a></li>
+					<li class="footer__list-item"><a href="#">Contacts</a></li>
+					<li class="footer__list-item"><a href="#">Press</a></li>
+					<li class="footer__list-item"><a href="#">Blog</a></li>
+				</ul>
+			</div>
+			<div class="footer__list-block footer__list-block--partners">
+				<h6 class="footer__list-header">Partners</h6>
+				<ul class="footer__list footer__list--partners clearfix">
+				</ul>
+			</div>
+			<a href="#" class="footer__company">
+				<span class="footer__text">Designed by</span>
+				<img src="img/areto.png" alt="Areto Development" class="footer__logo">
+			</a>
 		</div>
-	</footer></div>
+	</footer>
 </body>
 </html>

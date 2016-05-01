@@ -2,10 +2,7 @@
 @import "extendSelectors";
 @import "variables";
 
-.wrapper {
-	width: 320px;
-	margin: 0 auto;
-}
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,500,500italic,300italic,300,700,700italic,900,900italic,400italic,400);
 
@@ -29,15 +26,6 @@ header {
 	font-weight: bold;
 }
 
-.header__button {
-	font-size: 14px;
-	color: white;
-	font-family: $siteFont1;
-	font-weight: bold;
-	outline: none;
-	cursor: pointer;
-}
-
 .header__main-header {
 	margin: 103px auto 0;
 	width: 180px;
@@ -54,19 +42,18 @@ header {
 	width: 200px;
 }
 
-.header__button--registration {
+.header__authorization-button {
+	@extend %buttons;
 	float: left;
-	width: 90px;
+	width: 86px;
 	height: 35px;
-	border: 2px solid white;
-	border-radius: 30px;
 	background-color: transparent;
 }
 
-.header__button--authorization {
-	@extend .header__button--registration;
-	width: 86px;
-	border: none;
+.header__registration-button {
+	@extend .header__authorization-button;
+	width: 90px;
+	border: 2px solid white;
 }
 
 .header__underheader {
@@ -86,20 +73,13 @@ header {
 	font-weight: 300;
 }
 
-.header__button--big {
-	display: block;
+.header__big-button {
+	@extend %buttons;
 	margin: 14px auto;
 	width: 280px;
 	height: 40px;
 	border: none;
-	border-radius: 30px;
 	background-color: $mainColor;
-	color: white;
-	font-size: 14px;
-	font-family: $siteFont1;
-	font-weight: bold;
-	outline: none;
-	cursor: pointer;
 }
 
 
@@ -113,8 +93,8 @@ header {
 }
 
 .how-works-block__header {
-	margin: 33px 0 14px 0;
 	@extend %headers;
+	margin: 33px 0 14px 0;
 }
 
 .slider__wrapper {
@@ -211,10 +191,9 @@ header {
 }
 
 .partners__header {
-	margin: 23px auto 0;
-	padding: 0 6px 0 0;
-	width: 265px;
 	@extend %headers;
+	margin: 23px 0 0 0;
+	padding: 0 6px 0 0;
 }
 
 .partners__block {
@@ -223,19 +202,15 @@ header {
 	width: 215px;
 }
 
-/*@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {
 	.partners {
 		width: 480px;
-	}
-
-	.partners__header {
-		width: 405px;
 	}
 
 	.partners__block {
 		float: left;
 	}
-}*/
+}
 
 .partners__avatar-link {
 	display: block;
@@ -295,19 +270,13 @@ header {
 }
 
 .partners__button {
-	display: block;
+	@extend %buttons;
 	margin: 33px auto;
 	width: 280px;
 	height: 40px;
 	border: 2px solid $mainColor;
-	border-radius: 30px;
 	background-color: white;
 	color: $mainColor;
-	font-family: $siteFont1;
-	font-size: 14px;
-	font-weight: bold;
-	outline: none;
-	cursor: pointer;
 }
 
 
@@ -316,8 +285,8 @@ header {
 /*IDEAS  STARTS  HERE*/
 
 .ideas__header {
-	margin: 34px 0 0 0;
 	@extend %headers;
+	margin: 34px 0 0 0;
 }
 
 .ideas__box {
@@ -358,8 +327,8 @@ header {
 
 
 .search__header {
-	margin: 31px 0 0 0;
 	@extend %headers;
+	margin: 31px 0 0 0;
 }
 
 .search__greating {
@@ -390,17 +359,85 @@ header {
 }
 
 .search__button {
-	display: block;
+	@extend %buttons;
 	margin: 10px auto 0;
 	width: 280px;
 	height: 40px;
-	border: none;
-	border-radius: 30px;
 	background-color: $mainColor;
-	color: white;
+}
+
+
+/*FOOTER  STARTS  HERE*/
+/*FOOTER  STARTS  HERE*/
+/*FOOTER  STARTS  HERE*/
+
+
+footer {
+	margin: 40px 0 0 0;
+	height: 189px;
+	border-top: 4px solid $mainColor;
+}
+
+.footer__link {
+	display: block;
+	width: 150px;
+	margin: 16px auto 0;
+	padding: 0 0 0 3px;
+	color: $mainColor;
+	letter-spacing: 1px;
+	font-family: $siteFont1;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.footer__list-block {
+	margin: 11px auto 0;
+	width: 300px;
+}
+
+.footer__list-header {
+	padding: 0 2px 0 0;
+	color: #333;
+	text-align: center;
 	font-family: $siteFont1;
 	font-size: 14px;
 	font-weight: bold;
-	outline: none;
-	cursor: pointer;
+}
+
+.footer__list {
+	margin: 3px 0 0 0;
+	padding: 0 0 0 50px;
+	width: 220px;
+	color: #666;
+	font-family: $siteFont2;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.footer__list-item {
+	float: left;
+	margin: 0 12px 0 2px;
+}
+
+.footer__company {
+	display: block;
+	margin: 14px auto 0;
+	width: 110px;
+}
+
+.footer__text {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	color: #ccc;
+	letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: $siteFont1;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.footer__logo {
+	margin: 7px 0 0 0;
 }

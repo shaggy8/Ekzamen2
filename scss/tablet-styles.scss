@@ -3,12 +3,6 @@ body {
 }
 
 
-.wrapper {
-	width: 768px;
-	margin: 0 auto;
-}
-
-
 /*HEADER  STARTS  HERE*/
 /*HEADER  STARTS  HERE*/
 /*HEADER  STARTS  HERE*/
@@ -25,7 +19,7 @@ header {
 	width: auto;
 }
 
-.header__button--authorization {
+.header__authorization-button {
 	width: 82px;
 }
 
@@ -45,7 +39,7 @@ header {
 	font-size: 24px;
 }
 
-.header__button--big {
+.header__big-button {
 	margin: 33px auto;
 	width: 224px;
 }
@@ -128,7 +122,7 @@ header {
 
 
 .partners__header {
-	margin-top: 92px;
+	margin: 92px 0 0 0;
 }
 
 .partners__block {
@@ -208,4 +202,55 @@ header {
 	display: inline-block;
 	margin: 0;
 	width: 160px;
+}
+
+
+/*FOOTER  STARTS  HERE*/
+/*FOOTER  STARTS  HERE*/
+/*FOOTER  STARTS  HERE*/
+
+
+footer {
+	margin: 100px 0 0 0;
+	height: 196px;
+}
+
+.footer__link {
+	float: left;
+	margin: 36px 0 0 5%;
+}
+
+.footer__list-block {
+	float: left;
+	margin: 36px 0 0 10%;
+	width: 100px;
+}
+
+.footer__list-block--partners {
+	margin: 36px 0 0 9.2%;
+}
+
+.footer__list-header {
+	text-align: left;
+}
+
+.footer__list {
+	margin: 13px 0 0 0;
+	padding: 0;
+	width: auto;
+}
+
+.footer__list-item {
+	float: none;
+	margin: 0 0 7px 0;
+}
+
+.footer__company {
+	float: right;
+	margin: 36px 4.9% 0 0;
+}
+
+.footer__text {
+	margin: 0 0 0 30px;
+	width: 82px;
 }

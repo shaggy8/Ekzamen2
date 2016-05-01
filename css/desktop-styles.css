@@ -5,10 +5,6 @@ body {
   margin: 0 auto;
   width: 940px; }
 
-.wrapper {
-  width: auto;
-  margin: 0; }
-
 /*HEADER  STARTS  HERE*/
 /*HEADER  STARTS  HERE*/
 /*HEADER  STARTS  HERE*/
@@ -34,7 +30,7 @@ header {
   width: 400px;
   font-size: 24px; }
 
-.header__button--big {
+.header__big-button {
   margin: 33px auto;
   width: 223px; }
 
@@ -91,7 +87,7 @@ header {
   width: 100%; }
 
 .partners__header {
-  margin-top: 82px; }
+  margin: 82px 0 0 0; }
 
 .partners__block {
   margin: 29px 0 25px 0; }
@@ -155,3 +151,43 @@ header {
   display: inline-block;
   margin: 0;
   width: 160px; }
+
+/*FOOTER  STARTS  HERE*/
+/*FOOTER  STARTS  HERE*/
+/*FOOTER  STARTS  HERE*/
+footer {
+  margin: 100px 0 0 0;
+  height: 193px; }
+
+.footer__link {
+  float: left;
+  margin: 36px 0 0 0;
+  padding: 0; }
+
+.footer__list-block {
+  float: left;
+  margin: 36px 0 0 9.7%;
+  width: 100px; }
+
+.footer__list-block--partners {
+  margin: 36px 0 0 6.4%; }
+
+.footer__list-header {
+  text-align: left; }
+
+.footer__list {
+  margin: 13px 0 0 0;
+  padding: 0;
+  width: auto; }
+
+.footer__list-item {
+  float: none;
+  margin: 0 0 7px 0; }
+
+.footer__company {
+  float: right;
+  margin: 36px 0px 0 0; }
+
+.footer__text {
+  margin: 0 0 0 30px;
+  width: 82px; }

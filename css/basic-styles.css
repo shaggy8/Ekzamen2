@@ -22,9 +22,16 @@ a {
   font-size: 22px;
   font-weight: bold; }
 
-.wrapper {
-  width: 320px;
-  margin: 0 auto; }
+.header__authorization-button, .header__registration-button, .header__big-button, .partners__button, .search__button {
+  display: block;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer; }
 
 body {
   background-image: url(../img/header-bg_small.jpg);
@@ -41,14 +48,6 @@ header {
   font-family: "Montserrat", sans-serif;
   font-weight: bold; }
 
-.header__button {
-  font-size: 14px;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  outline: none;
-  cursor: pointer; }
-
 .header__main-header {
   margin: 103px auto 0;
   width: 180px;
@@ -62,17 +61,15 @@ header {
   margin: 20px auto 0;
   width: 200px; }
 
-.header__button--registration, .header__button--authorization {
+.header__authorization-button, .header__registration-button {
   float: left;
-  width: 90px;
+  width: 86px;
   height: 35px;
-  border: 2px solid white;
-  border-radius: 30px;
   background-color: transparent; }
 
-.header__button--authorization {
-  width: 86px;
-  border: none; }
+.header__registration-button {
+  width: 90px;
+  border: 2px solid white; }
 
 .header__underheader {
   margin: 23px auto 0;
@@ -89,20 +86,12 @@ header {
   font-size: 18px;
   font-weight: 300; }
 
-.header__button--big {
-  display: block;
+.header__big-button {
   margin: 14px auto;
   width: 280px;
   height: 40px;
   border: none;
-  border-radius: 30px;
-  background-color: #ff4e50;
-  color: white;
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  outline: none;
-  cursor: pointer; }
+  background-color: #ff4e50; }
 
 /*"HOW WORKS"  STARTS  HERE*/
 /*"HOW WORKS"  STARTS  HERE*/
@@ -190,28 +179,20 @@ header {
   width: 320px; }
 
 .partners__header {
-  margin: 23px auto 0;
-  padding: 0 6px 0 0;
-  width: 265px; }
+  margin: 23px 0 0 0;
+  padding: 0 6px 0 0; }
 
 .partners__block {
   position: relative;
   margin: 11px auto 24px;
   width: 215px; }
 
-/*@media screen and (min-width: 480px) {
-	.partners {
-		width: 480px;
-	}
+@media screen and (min-width: 480px) {
+  .partners {
+    width: 480px; }
+  .partners__block {
+    float: left; } }
 
-	.partners__header {
-		width: 405px;
-	}
-
-	.partners__block {
-		float: left;
-	}
-}*/
 .partners__avatar-link {
   display: block;
   margin: 0 auto;
@@ -262,19 +243,12 @@ header {
   font-weight: 300; }
 
 .partners__button {
-  display: block;
   margin: 33px auto;
   width: 280px;
   height: 40px;
   border: 2px solid #ff4e50;
-  border-radius: 30px;
   background-color: white;
-  color: #ff4e50;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-  outline: none;
-  cursor: pointer; }
+  color: #ff4e50; }
 
 /*IDEAS  STARTS  HERE*/
 /*IDEAS  STARTS  HERE*/
@@ -340,16 +314,71 @@ header {
   font-weight: 300; }
 
 .search__button {
-  display: block;
   margin: 10px auto 0;
   width: 280px;
   height: 40px;
-  border: none;
-  border-radius: 30px;
-  background-color: #ff4e50;
-  color: white;
+  background-color: #ff4e50; }
+
+/*FOOTER  STARTS  HERE*/
+/*FOOTER  STARTS  HERE*/
+/*FOOTER  STARTS  HERE*/
+footer {
+  margin: 40px 0 0 0;
+  height: 189px;
+  border-top: 4px solid #ff4e50; }
+
+.footer__link {
+  display: block;
+  width: 150px;
+  margin: 16px auto 0;
+  padding: 0 0 0 3px;
+  color: #ff4e50;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold; }
+
+.footer__list-block {
+  margin: 11px auto 0;
+  width: 300px; }
+
+.footer__list-header {
+  padding: 0 2px 0 0;
+  color: #333;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  font-weight: bold;
-  outline: none;
-  cursor: pointer; }
+  font-weight: bold; }
+
+.footer__list {
+  margin: 3px 0 0 0;
+  padding: 0 0 0 50px;
+  width: 220px;
+  color: #666;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300; }
+
+.footer__list-item {
+  float: left;
+  margin: 0 12px 0 2px; }
+
+.footer__company {
+  display: block;
+  margin: 14px auto 0;
+  width: 110px; }
+
+.footer__text {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  color: #ccc;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: bold; }
+
+.footer__logo {
+  margin: 7px 0 0 0; }
