@@ -2,12 +2,13 @@ var autoprefixer = require('gulp-autoprefixer');
 var cleanCSS = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var gulp = require('gulp');
-var sass = require('gulp-sass');
-var uglify = require('gulp-uglify');
-var watch = require('gulp-watch');
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
+var rename = require("gulp-rename");
+var sass = require('gulp-sass');
 var spritesmith = require('gulp.spritesmith');
+var uglify = require('gulp-uglify');
+var watch = require('gulp-watch');
 
 
 gulp.task('sass', function () {
@@ -24,6 +25,9 @@ gulp.task('minify-css', function(){
     return gulp.src('css/**/*.css')
                // .pipe(concat('styles-min.css'))
                .pipe(cleanCSS())
+               .pipe(rename({
+                  suffix: ".min"
+                }))
                .pipe(gulp.dest('built'));
 });
 
@@ -31,6 +35,9 @@ gulp.task('minify-js', function(){
     return gulp.src('js/*.js')
                // .pipe(concat('scripts-min.js'))
                .pipe(uglify())
+               .pipe(rename({
+                  suffix: ".min"
+                }))
                .pipe(gulp.dest('built'));
 });
 
