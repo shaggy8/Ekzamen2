@@ -70,10 +70,10 @@ jQuery(function() {
     $('.ideas__header').after($ideasBox);
 
     $ideasBox.html( tmpl('ideas', response) )
-             // .masonry({
-             //    gutter: 20,
-             //    fitWidth: true
-             //  });
+             .masonry({
+                gutter: 20,
+                fitWidth: true
+              });
   }
 
 });
